@@ -33,6 +33,8 @@
 }
 .service-title {
     font-family: 'Didact Gothic', sans-serif;
+    color: white;
+    text-align: center;
 }
 iframe {
     display: block;

@@ -1,7 +1,7 @@
 :root {
     --primary-color: rgb(245, 247, 248);
     --primary-color-opacity: rgba(17, 17, 17, 0.9);
-    --primary-color-opacity-less: rgba(7, 7, 7, 0.6);
+    --primary-color-opacity-less: rgba(7, 7, 7, 0.85);
     --secondary-color: #353333;
     --accent-color: #f3f6fd;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -14,15 +14,15 @@
 }
 .homepage-opener {
     font-size: 50px;
-
+width: 75%;
     text-align: center;
 }
 .introduction-message{
   text-align: center;
   line-height: 60px !important;
   font-family: 'Didact Gothic', sans-serif;
-  margin: 0 auto;
-  padding: 300px 500px;
+  margin: 100px 0px auto;
+  padding: 100px 100px;
   background:var(--primary-color-opacity-less);
   color: var(--accent-color);
   width: 100%;
@@ -106,7 +106,10 @@ h1 {
     margin-top: 10vw !important;
     border: none;
 }
-
+.tile {
+    border: 10px solid rgba(255, 255, 255, 0.288);
+    padding: 0px;
+}
 
 .contact-header {
     color: var(--primary-color);

@@ -110,6 +110,10 @@ h1 {
     border: 10px solid rgba(255, 255, 255, 0.288);
     padding: 0px;
 }
+.tile:hover {
+ border: 10px solid white;
+ opacity: 0.5;
+}
 
 .contact-header {
     color: var(--primary-color);

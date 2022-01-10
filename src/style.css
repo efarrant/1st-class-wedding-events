@@ -10,21 +10,44 @@
 }
 
 .homepage-business-name {
-    font-size: 35px;
+    font-size: 37px;
     font-family: 'Bellefair', serif;
     color: rgb(151, 149, 149);
 }
 .homepage-opener {
     font-size: 55px;
-width: 60%;
+width: 68%;
     text-align: center;
 }
+.typewriter {
+  overflow: hidden !important ;  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange !important ; /* The typwriter cursor */
+  white-space:nowrap !important ; /* Keeps the content on a single line */
+  margin: 0 auto !important ; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em !important ; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end) !important;
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
 .introduction-message{
   text-align: center;
   line-height: 60px !important;
   font-family: 'Bellefair',serif;
   margin: 100px 0px auto;
-  padding: 100px 400px;
+  padding: 100px 350px;
   background:rgba(7, 7, 7,0.4);
   color: var(--accent-color);
   width: 100%;

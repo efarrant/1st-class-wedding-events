@@ -73,7 +73,8 @@ a:hover {
 .navbar{
     background-color: black;
     font-family: var(--font-family);
-    font-size: 1vw;
+    font-size: 1.1vw;
+    
 }
 .navbar-brand {
     color: grey;
@@ -81,6 +82,7 @@ a:hover {
 }
 .nav-link {
     color: rgb(172, 169, 169) !important;
+    
 }
 #navbarNavAltMarkup {
     color: grey;
@@ -94,6 +96,11 @@ a:hover {
     padding: 50px 0px;
     font-family: 'Bellefair', serif;
     
+}
+.chair-covers-etc {
+    font-family: "Bellefair", serif;
+    color: white;
+    background: rgba(7,7,7,0.4)
 }
 body {
     background-size: cover;
@@ -137,12 +144,12 @@ h4 {
     border: none;
 }
 .tile {
-    border: 10px solid rgba(255, 255, 255, 0.288);
+   opacity: 0.6;
     padding: 0px;
 }
 .tile:hover {
- border: 10px solid white;
- opacity: 0.5;
+ 
+ opacity: 0.99;
 }
 
 .contact-header {
@@ -233,13 +240,6 @@ i {
     font-family: 'Dancing Script', cursive;
     font-size: 70px;
 }
-.proposal {
-    border-radius: 5px;
-    padding: 10px;
-}
-.map {
-    width:300px;
-}
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -277,7 +277,10 @@ i {
         font-size: 15px;
     }
     .page-title {
-        font-size: 50px;
+        font-size: 40px;
+        width: 90%;
+    }
+    .tab-headings{
         width: 90%;
     }
     .header {
@@ -318,10 +321,10 @@ i {
     .business-logo {
         width:200px;
     }
-    
-    .front-end-developer {
-        font-size: 16px;
+    .get-in-touch{
+        padding: 10px;
     }
+    
     
     i {
         font-size: 40px;

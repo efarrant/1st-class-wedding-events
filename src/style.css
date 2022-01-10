@@ -5,9 +5,10 @@
     --secondary-color: #353333;
     --accent-color: #f3f6fd;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-    --fontfamily-2: 'Didact Gothic', sans-serif;
-    --font-family: 'Didact Gothic', sans-serif;
+    --fontfamily-2: Bellefair, serif;
+    --font-family: Bellefair, serif;
 }
+
 .homepage-business-name {
     font-size: 30px;
     color: rgb(151, 149, 149);
@@ -20,10 +21,10 @@ width: 75%;
 .introduction-message{
   text-align: center;
   line-height: 60px !important;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Bellefair',serif;
   margin: 100px 0px auto;
-  padding: 100px 100px;
-  background:var(--primary-color-opacity-less);
+  padding: 100px 200px;
+  background:rgba(7, 7, 7,0.4);
   color: var(--accent-color);
   width: 100%;
   display: block;
@@ -31,8 +32,9 @@ width: 75%;
   
   font-size: 80px
 }
+
 .service-title {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Bellefair', serif;
     color: white;
     text-align: center;
 }
@@ -60,13 +62,13 @@ a:hover {
     color: grey;
 }
 .get-in-touch {
-    background: var(--primary-color-opacity);
+    background: rgba(7,7,7,0.4);
     color: var(--accent-color);
     display: block;
     margin: 0 auto;
     text-align: center;
     padding: 50px 0px;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Bellefair', serif;
     
 }
 body {
@@ -239,6 +241,9 @@ i {
     .nav-link {
         font-size: 15px;
     }
+    
+    
+
     .main-body {
         margin: 0 auto;
         width: 90%;
@@ -341,4 +346,5 @@ i {
     .tech-icon {
         width:50px;
     }
+    
 }

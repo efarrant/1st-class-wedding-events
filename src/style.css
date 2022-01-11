@@ -258,8 +258,6 @@ i {
   border: 1px solid var(--primary-color);
 }
 
-
-
 @media (max-width: 576px) {
    
     .nav-link {

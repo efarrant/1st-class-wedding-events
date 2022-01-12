@@ -5,21 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" title="1st Class Wedding Events is a family-run business with over sixteen years of event experience, and we can help you organize the perfect event - be that a wedding, a prom, a birthday or anniversary, or a corporate event. Our extensive range of decor ensures that we have the perfect decorations to suit all budgets and create something truly memorable!">
-
-    <title>1st Class Wedding Events: Services - Letters & Numbers</title>
+    <title>1st Class Wedding Events: Services - Big, Bold & Beautiful</title>
+    <link rel="stylesheet" href="css/reset.css">
+    
+    <link rel="stylesheet" href="css/gallery.css">
     <link rel="stylesheet" href="src/style.css">
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/f037981bae.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Zen+Old+Mincho&display=swap" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Zen+Old+Mincho&display=swap" rel="stylesheet">
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/f037981bae.js" crossorigin="anonymous"></script>
 </head>
+<script>
+    function doPortItem(n) {
+        let img = document.createElement('img');
+        img.src = './src/images/big-bold-beautiful/bbb-' + n + '.jpg';
+        img.addEventListener('load', () => {
+            let div = `<div class="col-md-3">
+     <div class="gallery-item">
+       <div class="gallery-img">
+         <img data-lazy-image data-src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==" src="${img.src}" alt="Demo" class="img-fluid p-2 shadow rounded services tile" img"> 
+       </div>
+     </div>
+   </div>`;
+            document.querySelector('#gallery-items').innerHTML += div;
+            doPortItem(++n)
+        })
+    }
+    doPortItem(1)
+</script>
+
 <body style="background-color: black" class="mt-5">
     <header><nav class="navbar navbar-expand-lg navbar-dark fixed-top">
   <div class="container-fluid" width="100%">
@@ -32,8 +52,7 @@
         <a class="nav-link active" aria-current="page" href="/">Home</a>
         <a class="nav-link" href="/about-us.html" title="about us">About Us</a>
         <a class="nav-link" href="/services.html" title="Services">Services</a>
-        
-        <a class="nav-link" href="/photo-gallery.html" title="photo gallery">Photo Gallery</a>
+       
         <a class="nav-link" href="/testimonials.html" title="testimonials">Testimonials</a>
         <a class="nav-link" href="/contact.html" title="Contact">Contact Us</a>
         <a class="nav-link" href="/tc.html" title="T's & C's">T & Cs</a>
@@ -42,105 +61,15 @@
     </div>
   </div>
 </nav></header>
-    <h4 class="mt-5 p-2 page-title"><img src="/src/images/big-bold-beautiful.png" width="65%"></h4>
-    <br/>
-    <h4 class="chair-covers-etc">Welcome to our gallery dedicated to the big, the bold - the beautiful! Here you will find a selection of statement pieces that will truly make your venue pop. Whether you settle on light-up 5ft letters spelling out a name, or our breathtaking blossom trees, you can be sure that there will be plenty of photo opportunities for you and your guests as all of these pieces make for a stunning focal point for any occasion.</h4>
+    <h4 class="mt-5 p-2 page-title"><img src="/src/images/big-bold-beautiful.png" width="78%"></h4>
+    <h5 class="chair-covers-etc"> Welcome to our gallery dedicated to the big, the bold - the beautiful!
+Here you will find a selection of statement pieces that will truly make your venue pop. </h5>
     &nbsp;
     <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <img src="/src/images/trees/pink-with-blossom.jpg" alt="white postbox" title="Sixteen" class="img-fluid p-2 shadow rounded tile" /><br/><div class="service-title"></div>
-        </div>
-       
-        <div class="col-md-3">
-          <img src="/src/images/letters-and-numbers/sixteen.jpg" alt="light up letters - 16" title="Sixteen" class="img-fluid p-2 shadow rounded tile" /><br/><div class="service-title"></div>
-        </div>
-          <div class="col-md-3">
-            &nbsp;&nbsp;
-          <img src="/src/images/chair-covers-and-sashes/purple-organza.jpg" alt="light up letters J & L distant" title="light-up-letters" class="img-fluid p-2 shadow rounded tile" /><br/><div class="service-title"></div>
-        </div>
-        <div class="col-md-4">
-          <img src="/src/images/light-up-letters.jpg" alt="5ft light up letters" title="Light up Letters"  class="img-fluid p-2 shadow rounded services tile" /><br/><div class="service-title"></div>
-        </div>
-     
-        <div class="col-md-5">
-        
-          <img src="/src/images/letters-and-numbers/party.jpg" alt="large light up letters spelling out 'Party'" title="Party" class="img-fluid p-2 shadow rounded tile" /><br/><div class="service-title"></div>
-        </div>
-         <div class="col-md-3">
-            &nbsp;
-          <img src="/src/images/letters-and-numbers/s-and-balloons.jpg" alt="light up letter S with balloon garland" title="letter S" class="img-fluid p-2 shadow rounded tile" /><br/><div class="service-title"></div>
-        </div>
-        <div class="col-md-4">
-          <img src="/src/images/letters-and-numbers/dance-floors.JPG" alt="dance floor" title="dance floor" class="img-fluid p-2 shadow rounded tile" /><br/><div class="service-title"></div>
-        </div>
-        <div class="col-md-7">
-           &nbsp;&nbsp;
-          <img src="/src/images/letters-and-numbers/distant-wooden.jpg" alt="marquee with tables and light up wooden letters in background" title="marquee with wooden letters" class="img-fluid p-2 shadow rounded tile" /><br/><div class="service-title"></div>
-        </div>
-        
-         <div class="col-md-5">
-            &nbsp;&nbsp;
-          <img src="/src/images/letters-and-numbers/floral.jpg" alt="floral letters N & J" title="floral letters" class="img-fluid p-2 shadow rounded tile" /><br/><div class="service-title"></div>
-        </div>
-        <div class="col-md-4">
-            &nbsp;&nbsp;
-          <img src="/src/images/letters-and-numbers/i-love-you.jpg" alt="light up letters saying 1 love you" title="I love you" class="img-fluid p-2 shadow rounded tile" /><br/><div class="service-title"></div>
-        </div>
-        <div class="col-md-4">
-            &nbsp;&nbsp;
-          <img src="/src/images/letters-and-numbers/e-and-s.jpg" alt="light up letters E & S" title="light-up-letters" class="img-fluid p-2 shadow rounded tile" /><br/><div class="service-title"></div>
-        </div>
-       
-        <div class="col-md-5">
-            &nbsp;&nbsp;
-          <img src="/src/images/letters-and-numbers/fifty.jpg" alt="50" title="50" class="img-fluid p-2 shadow rounded tile" /><br/><div class="service-title"></div>
-        </div>
-        <div class="col-md-7">
-            &nbsp;&nbsp;
-          <img src="/src/images/letters-and-numbers/i-love-you-red.jpg" alt="light up letters saying 1 love you" title="I love you" class="img-fluid p-2 shadow rounded tile" /><br/><div class="service-title"></div>
-        </div>
-        <div class="col-md-1"></div>
-         <div class="col-md-10">
-            &nbsp;&nbsp;
-          <img src="/src/images/letters-and-numbers/rustic-love-letters.jpg" alt="rustic light up letters saying love" title="rustic" class="img-fluid p-2 shadow rounded tile" /><br/><div class="service-title"></div>
-        </div><div class="col-md-1"></div>
-        <div class="col-md-7">
-            &nbsp;&nbsp;
-          <img src="/src/images/letters-and-numbers/love.jpg" alt="light up letters saying love" title="love" class="img-fluid p-2 shadow rounded tile" /><br/><div class="service-title"></div>
-        </div>
-        <div class="col-md-5">
-            &nbsp;&nbsp;
-          <img src="/src/images/letters-and-numbers/mb18.jpg" alt="light up letters" title="mb18" class="img-fluid p-2 shadow rounded tile" /><br/><div class="service-title"></div>
-        </div>
-        <div class="col-md-7">
-            &nbsp;&nbsp;
-          <img src="/src/images/letters-and-numbers/always-you.jpg" alt="always you" title="always you" class="img-fluid p-2 shadow rounded tile" /><br/><div class="service-title"></div>
-        </div>
-         
-        <div class="col-md-4">
-          <img src="/src/images/trees/nude-wedding-aisle.jpg" alt="postbox" class="img-fluid p-2 shadow rounded tile" title="A&C" /><br/><div class="service-title"></div>
-        </div>
-       <div class="col-md-1"></div>
-        <div class="col-md-10">
-          <img src="/src/images/trees/pink-blossom-tree-tables.jpg" alt="5ft light up letters" title="Light up Letters"  class="img-fluid p-2 shadow rounded services tile" /><br/><div class="service-title"><br/></div>
-        <div class="col-md-1"></div></div>
-        <div class="col-md-7">
-          <img src="/src/images/trees/pink-with-blossom.jpg" alt="white postbox" title="Sixteen" class="img-fluid p-2 shadow rounded tile" /><br/><div class="service-title"></div>
-        </div>
-         <div class="col-md-5">
-
-          <img src="/src/images/letters-and-numbers/a-and-c.jpg" alt="light up A & C on lit up dance floor" class="img-fluid p-2 shadow rounded tile" title="A&C" /><br/><div class="service-title"></div>
-        </div>
-         <div class="col-md-5">
-          <img src="/src/images/trees/white-blossom.jpg" alt="5ft light up letters" title="Light up Letters"  class="img-fluid p-2 shadow rounded services tile" /><br/><div class="service-title"></div>
-        </div>
-        <div class="col-md-3">
-          <img src="/src/images/trees/tree.jpg" alt="5ft light up letters" title="Light up Letters"  class="img-fluid p-2 shadow rounded services tile" /><br/><div class="service-title"></div>
-        </div>
-      </div>
-    </div>
-    
+    <a href="/all-things-sweet.html" class="services-bar">All Things Sweet</a>&nbsp;&nbsp;<a href="/balloon-decor.html"class="services-bar">Balloon Decor</a>&nbsp;&nbsp;<a href="/big-bold-beautiful.html"class="services-bar">Big, Bold & Beautiful</a>&nbsp;&nbsp;<a href="/chair-covers-and-sashes.html"class="services-bar">Chairs, Covers & Sashes</a>&nbsp;&nbsp;<a href="/personalise-me.html"class="services-bar">Personalise Me</a>&nbsp;&nbsp;<a href="/the-little-things.html"class="services-bar">The Little Things</a>&nbsp;&nbsp;<a href="/walls-doors-ceilings-floors.html"class="services-bar">Walls, Doors, Ceilings & Floors</a>&nbsp;&nbsp;<a href="/view-all.html"class="services-bar">View All</a></div>
+    <div class="row gallery-css" id='gallery-items'>
+            </div>
+   
 
 
 

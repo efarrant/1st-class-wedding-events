@@ -67,7 +67,7 @@ iframe {
     margin: 0 auto;
 }
 a:hover {
-   color: #4590B0 !important;
+   color: #D6AF28 !important;
 }
 
 .navbar{
@@ -100,7 +100,8 @@ a:hover {
 .chair-covers-etc {
     font-family: "Bellefair", serif;
     color: white;
-    background: rgba(7,7,7,0.4)
+    background: rgba(7,7,7,0.4);
+    text-align: center;
 }
 body {
     background-size: cover;
@@ -140,8 +141,10 @@ h4 {
     font-family: 'Didact Gothic', sans-serif;
     background: none;
     font-size: 3vw;
+    margin: 0 auto;
     margin-top: 10vw !important;
     border: none;
+    display: block;
 }
 .tile {
    opacity: 0.6;
@@ -258,6 +261,24 @@ i {
   border: 1px solid var(--primary-color);
 }
 
+.services-bar {
+    text-align: center;
+    color: rgb(196, 196, 196);
+    text-decoration: none;
+    opacity: 80%;
+    padding: 0px 10px;
+    font-family: 'Bellefair', serif;
+    font-size: 16px;
+    display: inline-block;
+    
+}
+.services-bar:hover {
+    color: white;
+}
+.services-bar:visited {
+    color: rgb(196,196,196)
+}
+
 @media (max-width: 576px) {
    
     .nav-link {
@@ -295,6 +316,17 @@ i {
     .homepage-business-name {
     font-size: 20px;
     color: rgb(151, 149, 149);
+}
+.services-bar {
+    text-align: center;
+    color: rgb(196, 196, 196);
+    text-decoration: none;
+    opacity: 80%;
+    padding: 0px 50px;
+    font-family: 'Bellefair', serif;
+    font-size: 16px;
+    display: block;
+    
 }
 .service-title {
     font-size: 13px;

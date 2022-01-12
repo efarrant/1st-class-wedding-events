@@ -108,8 +108,7 @@ a:hover {
 }
 body {
     background-size: cover;
-    color: var(--accent-color);
-
+    
 }
 /*this is centering quite a few headings*/
 h4 {
@@ -122,15 +121,16 @@ h4 {
     font-style: italic;
     font-family: var(--font-family);
 }
-.about-me-paragraph {
+/*POTENTIAL DELETION*/
+/* .about-me-paragraph {
     font-family: var(--font-family);
     line-height: 30px;
     
-}
-.contact-information {
+} POTENTIAL DELETION
+/* .contact-information {
     background: var(--secondary-color);
     text-align: center;
-}
+} */
 .page-title {
     font-family: 'Didact Gothic', sans-serif;
     background: none;
@@ -140,24 +140,27 @@ h4 {
     border: none;
     display: block;
 }
+/* this .tile class controls opacity over the services circular icons on the main Services screen*/
 .tile {
    opacity: 0.6;
     padding: 0px;
 }
+/*this highlights the tile when hovered*/
 .tile:hover {
- 
  opacity: 0.99;
 }
 
+/* POTENTIAL DELETION
 .contact-header {
     color: var(--primary-color);
     font-size: 1.7vw;
     font-weight: bold;
     text-align: center;
     font-family: 'Didact Gothic', sans-serif;
-}
+} */
 
-.main-body {
+/* POTENTIAL DELETION
+ .main-body {
 background: var(--primary-color-opacity);
     width: 75%;
     display: block;
@@ -167,8 +170,11 @@ background: var(--primary-color-opacity);
     color: var(--accent-color);
     font-size: 0.8vw;
     border: 3px solid var(--accent-color);
-}
+} */
 
+
+/* 
+POTENTIAL DELETION
 .email {
     display: block;
     margin: 0 auto;
@@ -180,14 +186,14 @@ background: var(--primary-color-opacity);
     line-height: 12px;
     text-decoration: none;
     border-radius: 5px;
-}
-.contact-label {
+} */
+/* .contact-label {
     font-size:20px;
     padding: none;
     margin: none;
     font-style: italic;
     text-decoration: none;
-}
+} */
 a {
     color: var(--accent-color);
 }
@@ -203,6 +209,8 @@ i {
 }
 
 
+/* 
+POTENTIAL DELETION
 .buttons {
     padding: 1.4vw;
     border-radius: 5%;
@@ -213,18 +221,21 @@ i {
     font-size: 1.3vw;
     text-align: center;
     
-}
+} */
 
 
-.introducing-myself {
+/*
+POTENTIAL DELETION
+ .introducing-myself {
       display: flex;
   justify-content: center;
   font-family: var(--font-family);
   flex-direction: column;
 
-}
+} */
 
-.my-name {
+/*POTENTIAL DELETION
+ .my-name {
     font-size: 40px;
     font-family: 'Dancing Script', cursive;
     
@@ -232,11 +243,11 @@ i {
     padding: 0.6vw 0.8vw 0.6vw 0.8vw;
     color: var(--accent-color);
     
-}
-.names {
+} */
+/* .names {
     font-family: 'Dancing Script', cursive;
     font-size: 70px;
-}
+} */
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;

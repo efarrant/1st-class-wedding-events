@@ -57,11 +57,7 @@ width: 68%;
   font-size: 80px
 }
 
-.service-title {
-    font-family: 'Bellefair', serif;
-    color: white;
-    text-align: center;
-}
+
 iframe {
     display: block;
     margin: 0 auto;
@@ -121,16 +117,7 @@ h4 {
     font-style: italic;
     font-family: var(--font-family);
 }
-/*POTENTIAL DELETION*/
-/* .about-me-paragraph {
-    font-family: var(--font-family);
-    line-height: 30px;
-    
-} POTENTIAL DELETION
-/* .contact-information {
-    background: var(--secondary-color);
-    text-align: center;
-} */
+
 .page-title {
     font-family: 'Didact Gothic', sans-serif;
     background: none;
@@ -150,50 +137,10 @@ h4 {
  opacity: 0.99;
 }
 
-/* POTENTIAL DELETION
-.contact-header {
-    color: var(--primary-color);
-    font-size: 1.7vw;
-    font-weight: bold;
-    text-align: center;
-    font-family: 'Didact Gothic', sans-serif;
-} */
-
-/* POTENTIAL DELETION
- .main-body {
-background: var(--primary-color-opacity);
-    width: 75%;
-    display: block;
-    margin: 0 auto;
-    margin-top: 2vw;
-    padding: 2vw 5vw 5vw 5vw;
-    color: var(--accent-color);
-    font-size: 0.8vw;
-    border: 3px solid var(--accent-color);
-} */
 
 
-/* 
-POTENTIAL DELETION
-.email {
-    display: block;
-    margin: 0 auto;
-    padding: 1vw;
-    background: var(--primary-color);
-    color: var(--accent-color);
-    text-align: center;
-    width: 200px;
-    line-height: 12px;
-    text-decoration: none;
-    border-radius: 5px;
-} */
-/* .contact-label {
-    font-size:20px;
-    padding: none;
-    margin: none;
-    font-style: italic;
-    text-decoration: none;
-} */
+ 
+
 a {
     color: var(--accent-color);
 }
@@ -209,63 +156,10 @@ i {
 }
 
 
-/* 
-POTENTIAL DELETION
-.buttons {
-    padding: 1.4vw;
-    border-radius: 5%;
-    box-shadow: var(--box-shadow);
-    background:var(--primary-color); 
-    font-family: var(--font-family);
-    border: 1px solid var(--accent-color);
-    font-size: 1.3vw;
-    text-align: center;
-    
-} */
 
 
-/*
-POTENTIAL DELETION
- .introducing-myself {
-      display: flex;
-  justify-content: center;
-  font-family: var(--font-family);
-  flex-direction: column;
 
-} */
-
-/*POTENTIAL DELETION
- .my-name {
-    font-size: 40px;
-    font-family: 'Dancing Script', cursive;
-    
-    background: none;
-    padding: 0.6vw 0.8vw 0.6vw 0.8vw;
-    color: var(--accent-color);
-    
-} */
-/* .names {
-    font-family: 'Dancing Script', cursive;
-    font-size: 70px;
-} */
-.primary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-.secondary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-
+/* the following code applies to the sub-tab for the service section*/
 .services-bar {
     text-align: center;
     color: rgb(196, 196, 196);
@@ -283,6 +177,7 @@ POTENTIAL DELETION
 .services-bar:visited {
     color: rgb(196,196,196)
 }
+/* the following code applies to the SELECTED sub-tab for the service section*/
 .selected-service {
     border-bottom: 1px;
     border-radius: 0.5em;

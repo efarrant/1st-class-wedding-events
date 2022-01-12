@@ -102,6 +102,7 @@ a:hover {
     color: white;
     background: rgba(7,7,7,0.4);
     text-align: center;
+    padding-bottom: 10px;
 }
 body {
     background-size: cover;
@@ -266,7 +267,7 @@ i {
     color: rgb(196, 196, 196);
     text-decoration: none;
     opacity: 80%;
-    padding: 0px 5px;
+    padding: 0px 18px;
     font-family: 'Bellefair', serif;
     font-size: 16px;
     display: inline-block;
@@ -291,7 +292,11 @@ i {
     .nav-link {
         font-size: 15px;
     }
-    
+    .chair-covers-etc {
+        font-size: 0.9rem;
+        margin-bottom: none;
+        padding-bottom: none;
+    }
     
 
     .main-body {
@@ -329,7 +334,7 @@ i {
     color: rgb(196, 196, 196);
     text-decoration: none;
     opacity: 80%;
-    padding: 0px 50px;
+    padding: 0px 30px;
     font-family: 'Bellefair', serif;
     font-size: 16px;
     display: block;
@@ -339,6 +344,7 @@ i {
     font-size: 13px;
     text-align: center;
 }
+
 .homepage-opener {
     font-size: 32px;
     text-align: center;

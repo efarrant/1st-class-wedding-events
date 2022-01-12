@@ -87,7 +87,8 @@ a:hover {
 #navbarNavAltMarkup {
     color: grey;
 }
-.get-in-touch {
+/*this is the styling for the text on the About Us page*/
+.about-us-paragraph {
     background: rgba(7,7,7,0.4);
     color: var(--accent-color);
     display: block;
@@ -97,6 +98,7 @@ a:hover {
     font-family: 'Bellefair', serif;
     
 }
+/* this controls the styling for the text below each of the services*/
 .chair-covers-etc {
     font-family: "Bellefair", serif;
     color: white;
@@ -109,16 +111,7 @@ body {
     color: var(--accent-color);
 
 }
-h1 {
-    background: var(--primary-color);
-    color: var(--accent-color);
-    text-align: center;
-    font-size: 3vw;
-    display:block;
-    margin: 0.1vw auto;
-    border: 3px solid var(--accent-color);
-    width: 35%;
-}
+/*this is centering quite a few headings*/
 h4 {
     text-align: center;
 }

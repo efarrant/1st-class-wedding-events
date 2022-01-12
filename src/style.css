@@ -266,7 +266,7 @@ i {
     color: rgb(196, 196, 196);
     text-decoration: none;
     opacity: 80%;
-    padding: 0px 10px;
+    padding: 0px 5px;
     font-family: 'Bellefair', serif;
     font-size: 16px;
     display: inline-block;
@@ -278,7 +278,14 @@ i {
 .services-bar:visited {
     color: rgb(196,196,196)
 }
-
+.selected-service {
+    border-bottom: 1px;
+    border-radius: 0.5em;
+    margin-bottom: 2px;
+    font-size:larger;
+    box-shadow: 0px 0px 18px 0px rgb(187, 183, 183);
+    background: none;
+}
 @media (max-width: 576px) {
    
     .nav-link {

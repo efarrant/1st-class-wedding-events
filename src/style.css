@@ -281,6 +281,10 @@ i {
         font-size: 25px;
         margin: 22px;
     }
+    .sub-social {
+        opacity: 0.4;
+        font-size: small;
+    }
 
     .main-body {
         margin: 0 auto;

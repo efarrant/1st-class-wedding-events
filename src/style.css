@@ -138,7 +138,20 @@ h4 {
 .tile:hover {
  opacity: 0.99;
 }
+/*this css is geared to the social media icons on the Contact Us page, and when hovered*/
+.icon-tile {
+   opacity: 0.85;
+    padding: 0px;
+    margin: 0px 10px 30px 0px;
 
+}
+/*this highlights the tile when hovered*/
+.icon-tile:hover {
+ opacity: 0.99;
+}
+.same-line {
+    display: inline-block;
+}
 /*testimonials page specific css*/
 .testimonials {
     margin: 0px 170px;
@@ -156,6 +169,11 @@ h4 {
   color: white;
   
 }
+.email-link{
+    text-decoration: none;
+    color: white;
+}
+
 .review-btn {
     font-family: Helvetica;
     display: inline-block;
@@ -248,6 +266,16 @@ i {
         margin: 30px;
         margin-top: 0px;
         padding-top: 10px;
+    }
+    .icon-tile {
+        max-width: 70px;
+        margin: 10px;
+        margin-bottom: 30px;
+        text-decoration: none;
+    }
+    .in-full {
+        font-size: 25px;
+        margin: 22px;
     }
 
     .main-body {
@@ -368,4 +396,12 @@ i {
         width:50px;
     }
     
+}
+footer {
+color: rgb(255, 255, 255, 0.4);
+font-family: Bellefair, serif;
+text-align: right;
+margin-right: 1em;
+margin-bottom: 0.5em;
+background:rgba(0, 0, 0, 0.3)
 }

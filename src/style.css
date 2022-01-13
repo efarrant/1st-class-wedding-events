@@ -92,7 +92,9 @@ a:hover {
     text-align: center;
     padding: 50px 0px;
     font-family: 'Bellefair', serif;
-    
+}
+.about-us-image {
+    border-radius: 1em;
 }
 /* this controls the styling for the text below each of the services*/
 .chair-covers-etc {
@@ -137,6 +139,43 @@ h4 {
  opacity: 0.99;
 }
 
+/*testimonials page specific css*/
+.testimonials {
+    margin: 0px 170px;
+    background: none;
+    color: var(--accent-color);
+    display: block;
+   
+    text-align: center;
+    padding: 50px 0px;
+    font-family: 'Bellefair', serif;
+
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  
+}
+.review-btn {
+    font-family: Helvetica;
+    display: inline-block;
+    border-bottom: 1px;
+    border-radius: 0.2em;
+    margin: 0 auto;
+    font-size:larger;
+    background: #3B5998;
+    padding: 0px 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 20px !important;
+    
+    color: white;
+}
+.review-btn:hover{
+    box-shadow: 0px 0px 18px 0px rgb(187, 183, 183);
+    color: white !important;
+}
 
 
  
@@ -196,7 +235,20 @@ i {
         margin-bottom: none;
         padding-bottom: none;
     }
-    
+    .review-btn {
+        width: 90%;
+        font-size: 15px !important;
+        
+        
+    }
+    .fa-facebook {
+        font-size: 15px;
+    }
+    .testimonials {
+        margin: 30px;
+        margin-top: 0px;
+        padding-top: 10px;
+    }
 
     .main-body {
         margin: 0 auto;

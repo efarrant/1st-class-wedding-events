@@ -100,7 +100,7 @@ a:hover {
 .chair-covers-etc {
     font-family: "Bellefair", serif;
     color: white;
-    background: rgba(7,7,7,0.4);
+    background: rgba(7,7,7,0.1);
     text-align: center;
     padding-bottom: 10px;
 }
@@ -247,6 +247,17 @@ i {
     box-shadow: 0px 0px 18px 0px rgb(187, 183, 183);
     background: none;
 }
+.services-a-z {
+    padding-top: 15px;
+    color: rgb(252, 247, 247, 0.6);
+    text-align: center;
+    font-family: Bellefair, serif;
+    font-size: 26px;
+    margin: 0% 15% 10% 15%;
+}
+.a-z-spacing {
+    padding: 10px;
+}
 @media (max-width: 576px) {
    
     .nav-link {
@@ -331,7 +342,22 @@ i {
     font-size: 13px;
     text-align: center;
 }
-
+.services-a-z {
+    padding-top: 15px;
+    color: rgb(252, 247, 247, 0.6);
+    text-align: center;
+    font-family: Bellefair, serif;
+    font-size: 17px;
+    margin: 0% 5% 20% 5%;
+}
+.a-z-spacing {
+    padding:  5px;
+    
+}
+.chair-covers-etc {
+    font-size: 16px;
+    padding: 0px 5px;
+}
 .homepage-opener {
     font-size: 32px;
     text-align: center;

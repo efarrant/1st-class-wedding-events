@@ -9,6 +9,7 @@ A couple of examples of the design are:
   <img src="./src/images/logo-white.png" />
   <br>
 - One of the overlays I designed for the Services page:
+  <br>
   <img width="200px" style="display: block; margin: 0 auto; margin-top: 6px;" src="./src/images/services-stickers/all-things-sweet.png"/>
 
 This also included applying my skills in Html, CSS, Javascript and Responsive development (see [here](https://github.com/efarrant/1st-class-wedding-events/blob/a39a1c716c0d06c14a5a257dfe38bcc8e883a1c9/src/style.css#L284)).

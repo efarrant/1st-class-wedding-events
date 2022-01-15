@@ -85,16 +85,24 @@ a:hover {
 }
 /*this is the styling for the text on the About Us page*/
 .about-us-paragraph {
-    background: rgba(7,7,7,0.4);
-    color: var(--accent-color);
+    background: rgba(7,7,7,0.1);
+    color: white !important;
     display: block;
     margin: 0 auto;
     text-align: center;
     padding: 50px 0px;
     font-family: 'Bellefair', serif;
+    font-size: 24px;
 }
 .about-us-image {
     border-radius: 1em;
+}
+
+.watch-us-in-action {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    color: white;
 }
 /* this controls the styling for the text below each of the services*/
 .chair-covers-etc {
@@ -164,6 +172,20 @@ h4 {
     font-family: 'Bellefair', serif;
 
 }
+
+.about-text {
+    font-size: 24px;
+    margin: 0px 170px;
+    background: none;
+    color: var(--accent-color);
+    display: block;
+   
+    text-align: center;
+    padding: 50px 0px;
+    font-family: 'Bellefair', serif;
+
+}
+
 .fa-facebook {
   background: #3B5998;
   color: white;
@@ -258,7 +280,14 @@ i {
 .a-z-spacing {
     padding: 10px;
 }
+
 @media (max-width: 576px) {
+
+    
+    .promo-video {
+         width: 410px;
+         height: 320px;
+    }
    
     .nav-link {
         font-size: 15px;
@@ -278,6 +307,12 @@ i {
         font-size: 15px;
     }
     .testimonials {
+        margin: 30px;
+        margin-top: 0px;
+        padding-top: 10px;
+    }
+    .about-text {
+        font-size: 18px;
         margin: 30px;
         margin-top: 0px;
         padding-top: 10px;
@@ -302,9 +337,7 @@ i {
         width: 90%;
         display: block;
     }
-    .about-me-paragraph {
-        font-size: 15px;
-    }
+   
     .page-title {
         font-size: 40px;
         width: 90%;
@@ -357,6 +390,11 @@ i {
 .chair-covers-etc {
     font-size: 16px;
     padding: 0px 5px;
+}
+
+
+.about-us-paragraph {
+    font-size: 17px;
 }
 .homepage-opener {
     font-size: 32px;

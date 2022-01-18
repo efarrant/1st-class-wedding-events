@@ -185,7 +185,17 @@ h4 {
     font-family: 'Bellefair', serif;
 
 }
+.about-us-paragraph-only {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
 
+}
+.about-us-opener {
+    font-size: 28px;
+    border-bottom: 1px solid rgb(247, 243, 243, 0.4);
+    
+}
 .fa-facebook {
   background: #3B5998;
   color: white;

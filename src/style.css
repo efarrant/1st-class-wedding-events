@@ -69,7 +69,7 @@ a:hover {
 .navbar{
     background-color: black;
     font-family: var(--font-family);
-    font-size: 1.1vw;
+    font-size: 1.2vw;
     
 }
 .navbar-brand {
@@ -78,6 +78,7 @@ a:hover {
 }
 .nav-link {
     color: rgb(172, 169, 169) !important;
+    padding: 0.5rem 1.1rem !important;
     
 }
 #navbarNavAltMarkup {
@@ -139,7 +140,7 @@ h4 {
 }
 /* this .tile class controls opacity over the services circular icons on the main Services screen*/
 .tile {
-   opacity: 0.6;
+   opacity: 0.7;
     padding: 0px;
 }
 /*this highlights the tile when hovered*/
@@ -173,11 +174,11 @@ h4 {
 
 }
 .reviews {
-    letter-spacing: 1.5px;
+    letter-spacing: 1.3px;
     font-size: 18px;
 }
 .contact-text-spacing {
-    letter-spacing: 1px;
+    letter-spacing: 0.8px;
 }
 
 .about-text {
@@ -197,6 +198,7 @@ h4 {
     padding-right: 30px;
     text-align: left;
     color:rgb(226, 223, 223);
+    letter-spacing: 0.8px;
 
 }
 .about-us-opener {
@@ -254,7 +256,8 @@ i {
 /*the following applies to terms&conditions*/
 .t-c {
     text-align: left;
-    font-size: 1.2em;
+    font-size: 24px;
+    letter-spacing: 0.8px;
 }
 
 
@@ -442,12 +445,14 @@ i {
     }
     
     .business-logo {
-        width:200px;
+        width:250px;
     }
     .get-in-touch{
         padding: 10px;
     }
-    
+    .t-c {
+        font-size: 18px;
+    }
     
     i {
         font-size: 40px;

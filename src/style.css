@@ -49,7 +49,7 @@ width: 68%;
   margin: 100px 0px auto;
   padding: 100px 350px;
   background:rgba(7, 7, 7,0.4);
-  color: var(--accent-color);
+  color: rgb(226, 223, 223);
   width: 100%;
   display: block;
   box-shadow: var(--box-shadow);
@@ -107,7 +107,7 @@ a:hover {
 /* this controls the styling for the text below each of the services*/
 .chair-covers-etc {
     font-family: "Bellefair", serif;
-    color: white;
+    color: rgb(226, 223, 223);
     background: rgba(7,7,7,0.1);
     text-align: center;
     padding-bottom: 10px;
@@ -164,13 +164,20 @@ h4 {
 .testimonials {
     margin: 0px 170px;
     background: none;
-    color: var(--accent-color);
+    color: rgb(226, 223, 223);
     display: block;
    
     text-align: center;
     padding: 50px 0px;
     font-family: 'Bellefair', serif;
 
+}
+.reviews {
+    letter-spacing: 1.5px;
+    font-size: 18px;
+}
+.contact-text-spacing {
+    letter-spacing: 1px;
 }
 
 .about-text {
@@ -189,6 +196,7 @@ h4 {
     padding-left: 30px;
     padding-right: 30px;
     text-align: left;
+    color:rgb(226, 223, 223);
 
 }
 .about-us-opener {

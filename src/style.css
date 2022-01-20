@@ -180,7 +180,12 @@ h4 {
 .contact-text-spacing {
     letter-spacing: 0.8px;
 }
-
+.FAQ-question {
+    font-size: 28px;
+}
+.FAQ-answer {
+    font-size: 24px;
+}
 .about-text {
     font-size: 24px;
     margin: 0px 170px;
@@ -334,6 +339,12 @@ i {
         margin-top: 0px;
         padding-top: 10px;
     }
+    .FAQ-question {
+    font-size: 23px;
+}
+.FAQ-answer {
+    font-size: 18px;
+}
     .about-text {
         font-size: 18px;
         margin: 30px;

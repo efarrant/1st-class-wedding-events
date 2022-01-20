@@ -182,9 +182,11 @@ h4 {
 }
 .FAQ-question {
     font-size: 28px;
+    padding: 0% 10%;
 }
 .FAQ-answer {
     font-size: 24px;
+    padding: 0% 10%;
 }
 .about-text {
     font-size: 24px;
@@ -341,9 +343,11 @@ i {
     }
     .FAQ-question {
     font-size: 23px;
+    padding: none;
 }
 .FAQ-answer {
     font-size: 18px;
+    padding: none;
 }
     .about-text {
         font-size: 18px;

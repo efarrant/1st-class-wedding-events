@@ -305,15 +305,39 @@ i {
     font-size: 26px;
     margin: 0% 15% 10% 15%;
     line-height: 38px;
+   
+}
+.a-z-title {
+ font-size: 30px;
+    border-bottom: 1px solid rgb(247, 243, 243, 0.4);
+    color:rgb(226, 223, 223);
+    text-decoration: none !important;
 }
 .a-z-spacing {
-    padding: 15px;
+    padding: 20px;
+    color: white !important;
+    line-height: 50px;
+    white-space: nowrap;
+    
     
 }
-
-@media (max-width: 576px) {
-
+.a-z-spacing:visited {
+    color: rgb(196,196,196)
+}
+.inventory-items-link-styling {
+    text-decoration: none; 
+    color: rgb(226, 223, 223);
+    border: 1px solid rgb(247, 243, 243, 0.7);
+    padding: 10px;
     
+}
+.inventory-items-link-styling:hover {
+    font-size: 28px;
+}
+@media (max-width: 576px) {
+.a-z-title {
+ font-size: 25px;
+}
     .promo-video {
          width: 410px;
          height: 320px;
@@ -418,9 +442,9 @@ i {
     color: rgb(252, 247, 247, 0.6);
     text-align: center;
     font-family: Bellefair, serif;
-    font-size: 17px;
+    font-size: 20px;
     margin: 0% 5% 20% 5%;
-    line-height: 30px;
+    line-height: 35px;
 }
 .a-z-spacing {
     padding:  5px;

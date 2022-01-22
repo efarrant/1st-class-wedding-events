@@ -56,7 +56,9 @@ width: 68%;
   
   font-size: 80px
 }
-
+[onclick] {
+    cursor: pointer;
+}
 
 iframe {
     display: block;
@@ -309,6 +311,7 @@ i {
     line-height: 38px;
    
 }
+
 .a-z-title {
  font-size: 30px;
     border-bottom: 1px solid rgb(247, 243, 243, 0.4);
@@ -334,8 +337,8 @@ i {
     
 }
 .inventory-items-link-styling:hover {
-    font-size: 28px;
-    padding: 8px;
+    font-size: 27px;
+    padding: 12px 7px;
   
 }
 @media (max-width: 576px) {

@@ -284,6 +284,8 @@ i {
 }
 .services-bar:hover {
     color: white;
+    font-size: 18px;
+    padding: 0px 13px;
 }
 .services-bar:visited {
     color: rgb(196,196,196)
@@ -316,8 +318,9 @@ i {
 .a-z-spacing {
     padding: 20px;
     color: white !important;
-    line-height: 50px;
+    line-height: 60px;
     white-space: nowrap;
+    margin-top: 20px;
 }
 .a-z-spacing:visited {
     color: rgb(196,196,196)
@@ -327,10 +330,13 @@ i {
     color: rgb(226, 223, 223);
     border: 1px solid rgb(247, 243, 243, 0.7);
     padding: 10px;
+    margin-top: 20px;
     
 }
 .inventory-items-link-styling:hover {
     font-size: 28px;
+    padding: 8px;
+  
 }
 @media (max-width: 576px) {
 .a-z-title {
@@ -431,6 +437,7 @@ i {
     display: block;
     
 }
+
 .service-title {
     font-size: 13px;
     text-align: center;
@@ -446,6 +453,8 @@ i {
 }
 .a-z-spacing {
     padding:  5px;
+
+    line-height: 50px;
     
 }
 .chair-covers-etc {

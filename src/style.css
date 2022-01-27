@@ -346,8 +346,10 @@ i {
  font-size: 25px;
 }
     .promo-video {
-         width: 410px;
+         width: 330px;
          height: 320px;
+         display: block;
+         margin: 0 auto;
     }
    
     .nav-link {

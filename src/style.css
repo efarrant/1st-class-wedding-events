@@ -565,6 +565,9 @@ font-size: 20px;
     a{
     color: var(--accent-color);
     }
+    a:hover {
+        color: var(--accent-color);
+    }
     .tech-icon {
         width:50px;
     }

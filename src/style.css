@@ -175,6 +175,9 @@ h4 {
     font-family: 'Bellefair', serif;
 
 }
+.tab-headings {
+    width: 800px;
+}
 .reviews {
     letter-spacing: 1.3px;
     font-size: 18px;
@@ -427,7 +430,7 @@ font-size: 20px;
         width: 90%;
     }
     .tab-headings{
-        width: 90%;
+        width: 80%;
     }
     .header {
         font-size: 20px;

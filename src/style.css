@@ -21,7 +21,7 @@ width: 68%;
 }
 .typewriter {
   overflow: hidden !important ;  /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange !important ; /* The typwriter cursor */
+  border-right: .15em solid rgb(243, 197, 44, 0.8) !important ; /* The typwriter cursor */
   white-space:nowrap !important ; /* Keeps the content on a single line */
   margin: 0 auto !important ; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em !important ; /* Adjust as needed */

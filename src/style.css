@@ -12,6 +12,7 @@
     /* background: black url('/src/images/new-background.png') no-repeat fixed center; */
     background-image: url('/src/images/new-background.png');
     background-position: center;
+    
 }
 .homepage-business-name {
     font-size: 37px;
@@ -52,7 +53,7 @@ width: 68%;
   font-family: 'Bellefair',serif;
   margin: 100px 0px auto;
   padding: 100px 350px;
-  background:rgba(7, 7, 7,0.5);
+  background:rgba(7, 7, 7,0.3);
   color: rgb(226, 223, 223);
   width: 100%;
   display: block;

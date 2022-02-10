@@ -12,7 +12,7 @@
 .homepage-business-name {
     font-size: 37px;
     font-family: 'Bellefair', serif;
-    color: rgb(151, 149, 149);
+    color: rgb(206, 204, 204);
 }
 .homepage-opener {
     font-size: 55px;
@@ -21,7 +21,7 @@ width: 68%;
 }
 .typewriter {
   overflow: hidden !important ;  /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid rgb(243, 197, 44, 0.8) !important ; /* The typwriter cursor */
+  border-right: .15em solid rgba(175, 120, 125, 0.8) !important ; /* The typwriter cursor */
   white-space:nowrap !important ; /* Keeps the content on a single line */
   margin: 0 auto !important ; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em !important ; /* Adjust as needed */
@@ -48,10 +48,11 @@ width: 68%;
   font-family: 'Bellefair',serif;
   margin: 100px 0px auto;
   padding: 100px 350px;
-  background:rgba(7, 7, 7,0.4);
+  background:rgba(7, 7, 7,0.5);
   color: rgb(226, 223, 223);
   width: 100%;
   display: block;
+  
   box-shadow: var(--box-shadow);
   
   font-size: 80px

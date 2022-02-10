@@ -8,7 +8,11 @@
     --fontfamily-2: Bellefair, serif;
     --font-family: Bellefair, serif;
 }
-
+.background-main {
+    /* background: black url('/src/images/new-background.png') no-repeat fixed center; */
+    background-image: url('/src/images/new-background.png');
+    background-position: center;
+}
 .homepage-business-name {
     font-size: 37px;
     font-family: 'Bellefair', serif;
@@ -359,6 +363,10 @@ font-size: 20px;
 }
 
 @media (max-width: 576px) {
+    .background-main {
+        background: black url('/src/images/new-background.png') no-repeat fixed center;
+        /* background-image: url('/src/images/new-background.png'); */
+    }
 .a-z-title {
  font-size: 25px;
 }
